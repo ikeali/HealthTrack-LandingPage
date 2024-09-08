@@ -20,17 +20,17 @@ nav .container {
 }
 
 nav a.logo {
+    display: flex; /* Ensures logo and text align horizontally */
+    align-items: center; /* Vertically center the image and text */
+    text-decoration: none;
     color: white;
     font-size: 1.5rem;
-    text-decoration: none;
     font-weight: bold;
 }
 
 nav a.logo img {
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
-    vertical-align: middle;
+    height: 40px; /* Adjust the logo height */
+    margin-right: 10px; /* Add some space between the logo and the text */
 }
 
 .nav-links {
@@ -55,6 +55,19 @@ nav a.logo img {
 
 .nav-links a:hover {
     color: #4CAF50;
+}
+
+/* Sign Up Button Style */
+.signup-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.signup-btn:hover {
+    background-color: #45a049;
 }
 
 /* Header Section */
