@@ -1,1 +1,1 @@
-# HealthTrack-LandingPage
+HealthTrack is a web-based platform designed to help users monitor and manage their health through personalized data tracking. The platform allows users to input health metrics, set goals, track progress, and receive insights based on their data. It integrates with wearable devices to collect real-time data and provides users with customized health recommendations.
