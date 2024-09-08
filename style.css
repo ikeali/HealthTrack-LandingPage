@@ -36,11 +36,14 @@ nav a.logo img {
 .nav-links {
     list-style: none;
     display: flex;
+    gap: 20px; /* Adds spacing between links */
     margin: 0;
+    padding: 0;
 }
 
 .nav-links li {
-    margin-left: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links a {
